@@ -1,0 +1,29 @@
+body{
+    background:#f4f7fb;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+.card{
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 20px rgba(0,0,0,.15);
+}
+
+button{
+    border-radius:8px !important;
+}
+
+input,select{
+    border-radius:8px !important;
+}
+
+.navbar-brand{
+    font-size:24px;
+}
+
+.container{
+    margin-top:30px;
+}
